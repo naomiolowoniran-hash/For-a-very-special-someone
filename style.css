@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #FDF9FF, #EBD6FF);
+  color: #3A235A;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 32px;
+  background: rgba(253, 249, 255, 0.9);
+  backdrop-filter: blur(8px);
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 26px;
+  color: #A45DEB;
+}
+
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: #3A235A;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #A45DEB;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px 60px;
+}
+
+.hero h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 52px;
+  margin-bottom: 10px;
+  color: #A45DEB;
+}
+
+.hero p {
+  max-width: 640px;
+  margin: 0 auto 20px;
+  font-size: 16px;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero-buttons button,
+.hero-buttons .link-button {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: none;
+  background: #A45DEB;
+  color: #FDF9FF;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(164, 93, 235, 0.35);
+}
+
+.hero-buttons .link-button {
+  background: #D7B3FF;
+  color: #3A235A;
+}
+
+.hero-buttons button:hover,
+.hero-buttons .link-button:hover {
+  transform: translateY(-1px);
+}
+
+.hero-note {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #6B4A8F;
+}
+
+.section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #A45DEB;
+  text-align: center;
+}
+
+.section-intro {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 14px;
+}
+
+.section-card {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(58, 35, 90, 0.12);
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.reason {
+  background: #FDF9FF;
+  border-radius: 18px;
+  padding: 14px 16px;
+  box-shadow: 0 6px 16px rgba(164, 93, 235, 0.12);
+  position: relative;
+}
+
+.reason h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+  color: #6B4A8F;
+}
+
+.reason p {
+  font-size: 13px;
+}
+
+.scrapbook-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.scrap-card {
+  background: #FDF9FF;
+  border-radius: 18px;
+  padding: 10px;
+  box-shadow: 0 10px 24px rgba(58, 35, 90, 0.15);
+  position: relative;
+}
+
+.scrap-card img {
+  width: 100%;
+  border-radius: 14px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.scrap-card p {
+  font-size: 13px;
+  text-align: center;
+  color: #6B4A8F;
+}
+
+.song-card {
+  background: #FDF9FF;
+  border-radius: 18px;
+  padding: 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 20px rgba(58, 35, 90, 0.12);
+}
+
+.song-card h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #6B4A8F;
+}
+
+.song-card p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.embed-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.poems-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.poem-card {
+  background: #FDF9FF;
+  border-radius: 18px;
+  padding: 14px 16px;
+  box-shadow: 0 8px 20px rgba(164, 93, 235, 0.15);
+  font-size: 13px;
+}
+
+.poem-card h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+  color: #6B4A8F;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 24px 20px 30px;
+  font-size: 13px;
+  color: #6B4A8F;
+}
